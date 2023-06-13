@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(assets/img/Books/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box
+{
+    padding: 20px 30px;
+    width: 300px;
+    height: 400px;
+    backdrop-filter: blur(50px);
+    border-radius: 5px;
+    background: rgba(49, 49, 49, .2);
+    border: 1px solid rgba(255, 255, 255, .5);
+}
+.box .form
+{
+    padding: 10px 20px;
+}
+.box .form h2
+{
+    text-align: center;
+    color: #000000;
+}
+.box .form form
+{
+    margin-top: 50px;
+    align-items: center;
+}
+.box .form form .inputbox input
+{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #12151e;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.box .form form .inputbox span
+{
+    position: absolute;
+    transform: translateY(-80px);
+    font-size: 14px;
+    color: #000000;
+}
+.box .form form .sub
+{
+    padding: 10px 20px;
+    color: #fff;
+    border: navajowhite;
+    outline: none;
+    background: #2c3e50;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+  }
+  
+  table {
+    text-align: left;
+    line-height: 40px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #ed1c40;
+    width: 500px;
+    margin: 50px auto;
+    border-radius: .25rem;
+  }
+  
+  thead tr:first-child {
+    background: #ed1c40;
+    color: #fff;
+    border: none;
+  }
+  
+  th:first-child,
+  td:first-child {
+    padding: 0 15px 0 20px;
+  }
+  
+  th {
+    font-weight: 500;
+  }
+  
+  thead tr:last-child th {
+    border-bottom: 3px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background-color: #f2f2f2;
+    cursor: default;
+  }
+  
+  tbody tr:last-child td {
+    border: none;
+  }
+  
+  tbody td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  td:last-child {
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  .button {
+    color: #aaa;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: -4px;
+  }
+  
+  .edit:hover {
+    color: #0a79df;
+  }
+  
+  .delete:hover {
+    color: #dc2a2a;
+  }
